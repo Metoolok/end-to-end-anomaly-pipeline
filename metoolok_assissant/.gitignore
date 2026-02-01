@@ -1,7 +1,0 @@
-venv/
-.venv/
-__pycache__/
-.idea/
-*.pyc
-.env
-temp/
