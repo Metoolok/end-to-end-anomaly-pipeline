@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  anomaly-detector:
+    build: .
+    volumes:
+      - .:/app
+    container_name: ml_anomaly_pipeline
