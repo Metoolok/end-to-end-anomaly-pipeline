@@ -10,6 +10,8 @@ Modular Architecture: Cleanly separated logic into data_loader, feature_engineer
 
 Container Ready: Includes Dockerfile and docker-compose.yml for seamless deployment across environments.
 
+
+
 📂 Project Structure
 Plaintext
 ├── artifacts/          # Saved model (.pkl) and scaler files
@@ -23,10 +25,19 @@ Plaintext
 │   └── main.py         # Pipeline orchestration and execution
 ├── Dockerfile          # Production environment setup
 └── requirements.txt    # Project dependencies
+
+
+
+
+
 📊 Results & Visualization
 The pipeline processes time-series data and generates a visualization that highlights anomalies. It also reports a Drift Score to alert when the model needs retraining due to statistical shifts in the input data.
 
 Tip: You can insert the anomaly graph screenshot from your video (around 00:24) here!
+
+
+
+
 
 🚀 How to Run
 Clone the repo: git clone https://github.com/Metoolok/end-to-end-anomaly-pipeline.git
